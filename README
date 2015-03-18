@@ -1,0 +1,11 @@
+AspectJ-for-NetBeans: Plugin for working with AspectJ in NetBeans.
+
+This project is the result of the SWEN 670 Capstone Project course at University of Maryland University College: Stan Derevyanko, Carlos Maldonado, Melvin Paige, and Alex Wancowicz.
+
+The plugin results from work done on the open source distribution of the ramos AspectJ-for-NetBeans code available on GitHub (sworisbreathing/aspectj-for-netbeans). Functionality and support for annotations has been removed. The team focused on basic requirements for building and running AspectJ programs. This version has been verified to be stable in NetBeans 8.0.1.
+
+Installation: Download the (.nbm) file into a folder. Open NetBeans and under Tools go to Plugins. Click the Download tab in the Plugins window. Click to Add Plugins... and follow the prompts to open and select the (.nbm) file. Click to install the plugins, and this will prompt you to close and reopen NetBeans.
+
+Instructions: Set a project in the NetBeans IDE as Default with Run:Set Main Project and toggle the plugin on with the Tools:AspectJ Start AJDE menu item, or with the toolbar button. Include AspectJ code in a (.aj) file. In the project you can create a new file from the AspectJ category in the project's New File dialog.
+
+To build the project first create an empty (.lst) file and type the name of each file for the build on a separate line. Save the file, and select it using the Tools:AspectJ Select Build Configuration menu item. AspectJ code will be converted to (.class) files automatically when the project is built. AspectJ compiler errors display in a tab separate from the project output tab.
